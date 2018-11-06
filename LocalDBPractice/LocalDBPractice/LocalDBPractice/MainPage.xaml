@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LocalDBPractice"
+             x:Class="LocalDBPractice.MainPage">
+
+    <StackLayout x:Name="MyStackLayout">
+        <Label>name</Label>
+        <Entry x:Name="CocktailName"
+           VerticalOptions="CenterAndExpand" />
+        <Label>desc</Label>
+        <Entry x:Name="CocktailDesc"
+           VerticalOptions="CenterAndExpand" />
+        <Label>Tags</Label>
+        <Entry x:Name="CocktailTags"
+           VerticalOptions="CenterAndExpand" />
+        <Label>Path</Label>
+        <Entry x:Name="CocktailPath"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Clicked="Button_Clicked"
+                 HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" Text="Submite"/>
+
+        <Button Clicked="btnCourseList_Clicked" Text="Content page"/>
+    </StackLayout>
+
+</ContentPage>

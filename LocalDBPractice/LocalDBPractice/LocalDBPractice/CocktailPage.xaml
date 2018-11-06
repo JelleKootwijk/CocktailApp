@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LocalDBPractice.CocktailPage">
+    <ContentPage.Content>
+        <StackLayout Padding="0, 15, 0, 0">
+            <StackLayout Padding="50, 0, 0, 0">
+                <Label x:Name="CocktailName"
+                   FontFamily="{StaticResource GravityBook}"
+                   FontSize="25" />
+                <Label x:Name="CocktailTags"
+                   FontFamily="{StaticResource GravityBook}"
+                   FontSize="20" />
+            </StackLayout>
+            
+            <Image x:Name="lineImage"/>
+
+            <StackLayout Padding="50, 0, 0, 0">
+                <Label x:Name="CocktailDesc"
+                   FontFamily="{StaticResource GravityBook}"
+                   FontSize="20" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
