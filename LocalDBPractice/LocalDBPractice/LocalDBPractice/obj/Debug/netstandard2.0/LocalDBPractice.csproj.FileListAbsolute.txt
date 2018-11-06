@@ -19,3 +19,4 @@ D:\LocalDBPractice\LocalDBPractice\LocalDBPractice\bin\Debug\netstandard2.0\Mono
 D:\LocalDBPractice\LocalDBPractice\LocalDBPractice\bin\Debug\netstandard2.0\Mono.Android.xml
 D:\LocalDBPractice\LocalDBPractice\LocalDBPractice\obj\Debug\netstandard2.0\LocalDBPractice.csproj.CopyComplete
 D:\LocalDBPractice\LocalDBPractice\LocalDBPractice\obj\Debug\netstandard2.0\CocktailPage.xaml.g.cs
+D:\LocalDBPractice\LocalDBPractice\LocalDBPractice\obj\Debug\netstandard2.0\Settings.xaml.g.cs

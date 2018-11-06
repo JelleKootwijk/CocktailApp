@@ -27,5 +27,10 @@ namespace LocalDBPractice
         {
             await Navigation.PushModalAsync(new NavigationPage(new MainPage()));
         }
+
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new Settings()));
+        }
     }
 }

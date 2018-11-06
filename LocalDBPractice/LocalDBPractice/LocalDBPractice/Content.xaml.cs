@@ -21,7 +21,7 @@ namespace LocalDBPractice
 
             string dbPath = Path.Combine(
                  Environment.GetFolderPath(Environment.SpecialFolder.Personal),
-                 "CocktailApp.db3");
+                 "CocktailAppRelease.db3");
 
             var db = new SQLiteConnection(dbPath);
 

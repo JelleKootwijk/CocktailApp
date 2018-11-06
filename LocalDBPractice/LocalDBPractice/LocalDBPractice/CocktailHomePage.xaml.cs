@@ -21,7 +21,7 @@ namespace LocalDBPractice
 
             string dbPath = System.IO.Path.Combine(
                  Environment.GetFolderPath(Environment.SpecialFolder.Personal),
-                 "CocktailApp.db3");
+                 "CocktailAppRelease.db3");
 
             var db = new SQLiteConnection(dbPath);
 
@@ -35,7 +35,7 @@ namespace LocalDBPractice
             {
                 StackLayout cocktailStack = new StackLayout();
 
-                Grid infoStack = new Grid();
+                StackLayout infoStack = new StackLayout();
 
                 Label CocktailName = new Label();
                 CocktailName.Text = cockTail.name;
